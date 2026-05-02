@@ -228,7 +228,7 @@ resources/
 
 ### Login to Your Account
 
-You can authenticate with your Sheaf UI account:
+You can authenticate with your SheafUI Pro account, to install your purchased component:
 
 ```bash
 php artisan sheaf:login
@@ -237,7 +237,6 @@ php artisan sheaf:login
 This command will:
 
 - Prompt for your Sheaf account credentials
-- Store authentication tokens securely
 
 ### View Current Account
 
@@ -253,7 +252,7 @@ This command displays:
 
 **Example Output:**
 ```
-You're login as achchiraj.youssef@gmail.com
+You're login as sheafuipro@gmail.com
 ```
 
 ### Logout from Your Account
@@ -263,12 +262,6 @@ Remove stored authentication credentials and logout:
 ```bash
 php artisan sheaf:logout
 ```
-
-This command will:
-
-- Clear stored authentication tokens
-- Remove cached account information
-- Confirm successful logout
 
 ## Component Management
 
