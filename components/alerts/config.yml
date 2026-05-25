@@ -3,4 +3,4 @@ files:
   heading: resources/views/components/ui/alerts/heading.blade.php
   description: resources/views/components/ui/alerts/description.blade.php
 dependencies:
-  internal: [icon]
+  internal: [icon, heading]
