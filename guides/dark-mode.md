@@ -286,7 +286,7 @@ Add flicker prevention scripts directly in your HTML head to ensure themes load 
     @livewireScriptConfig
     @vite(['resources/js/app.js'])
     
-    <!-- Ensure dark mode is applied after scripts load, this is also required to prevent flickering when many livewire component changes indepently -->
+    <!-- Ensure dark mode is applied after scripts load, this is also required to prevent flickering when many livewire component changes independently -->
     <script>
         loadDarkMode()
     </script>
